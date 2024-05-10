@@ -1,25 +1,25 @@
 {
-  "name": "inrl@4.1.2",
+  "name": "jace",
   "description": "simple multi featured whatsapp bot",
   "keywords": ["whatsapp"],
   "success_url": "/",
   "env": {
-    "SESSION_ID": {
+    "SESSION_ID": {inrl~f88b9CSJte8159b011970829a0e05c397108
       "description": "to run the bot",
       "required": true,
-      "value": ""
+      "value": "true"
     },
-    "HEROKU_API_KEY": {
+    "HEROKU_API_KEY": {HRKU-ff477292-8ce1-4337-986d-d3aa60e15034
       "description": "For updating bot and setting vars remotely",
       "required": true,
-      "value": ""
+      "value": "true"
     },
-    "HEROKU_APP_NAME": {
+    "HEROKU_APP_NAME": {jace}
       "description": "Exact name which you gave at the top",
       "required": true,
-      "value": ""
+      "value": "true"
     },
-    "WORKTYPE": {
+    "WORKTYPE": {public}
       "description": "enter bot mode must be public/private",
       "required": true,
       "value": "private"
@@ -29,7 +29,7 @@
       "required": true,
       "value": "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg"
     },
-    "PREFIX": {
+    "PREFIX": {.}
       "description": "bot preifx  ., [.,!], false",
       "required": true,
       "value": "."
@@ -42,7 +42,7 @@
     "STICKER_DATA": {
       "description": "sticker data",
       "required": true,
-      "value": "inrl;inrl"
+      "value": "𖤇𝗝🅐Ç̧𝐄𓅤"
     },
     "PERSONAL_MESSAGE": {
       "description": "personal greetings for first message ",
@@ -62,7 +62,7 @@
     "SUDO": {
       "description": "secounds owners of bot",
       "required": true,
-      "value": "null"
+      "value": "254714890105"
     },
     "AJOIN": {
       "description": "automatically join to all groups",
@@ -72,12 +72,12 @@
     "SAVE_STATUS": {
       "description": "save all status message",
       "required": true,
-      "value": "null"
+      "value": "false"
     },
     "STATUS_VIEW": {
       "description": "status views, values= true,only-view=jid, not-view=jid",
       "required": true,
-      "value": "false"
+      "value": "true"
     },
     "ERROR_MSG": {
       "description": "send error messages to bot number",
